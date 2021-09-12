@@ -1,26 +1,31 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Header name="HOANG Minh Chau" profession="Web Developper"/>
+  <About title="About me"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Header from './components/Header.vue'
+import About from './components/About.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Header,
+    About
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
+  body {
+    margin: 0;
+  }
+
+  #app {
+
+    font-family: 'Raleway', sans-serif;
+    
+  }
+
 </style>
